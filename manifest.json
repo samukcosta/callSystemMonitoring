@@ -1,0 +1,22 @@
+{
+  "name": "Monitoramento de Chamados",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Monitoramento de Chamados",
+  "background": {
+    "scripts": [
+      "index.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Monitoramento de Chamados",
+    "default_popup": "index.html",
+	  "default_icon": "moni_icon.png"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
